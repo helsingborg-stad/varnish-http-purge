@@ -1,0 +1,391 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Varnish HTTP Purge\n"
+"POT-Creation-Date: 2017-08-16 15:37+0200\n"
+"PO-Revision-Date: 2017-08-16 16:02+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: varnish-http-purge.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: varnish-http-purge.php:144
+msgid "Varnish cache emptied!"
+msgstr "Sidcachen har tömts!"
+
+#: varnish-http-purge.php:154
+#, php-format
+msgid ""
+"Varnish HTTP Purge requires you to use custom permalinks. Please go to the "
+"<a href=\"%1$s\">Permalinks Options Page</a> to configure them."
+msgstr ""
+"Varnish HTTP Purge kräver att du använder permalänkar. Vänligen gå till <a "
+"href=\"%1$s\">inställningssidan för permalänkar</a> och konfigurera dem."
+
+#: varnish-http-purge.php:164
+#, php-format
+msgid ""
+"Varnish HTTP Purge requires WordPress 4.7 or greater. Please <a href=\"%1$s"
+"\">upgrade WordPress</a>."
+msgstr ""
+"Varnish HTTP Purge kräver WordPress 4.7 eller högre. Vänligen <a href=\"%1$s"
+"\">uppgradera WordPress</a>."
+
+#: varnish-http-purge.php:188 varnish-http-purge.php:191
+#: varnish-http-purge.php:208
+msgid "Empty Cache"
+msgstr "Töm cachefiler"
+
+#: varnish-http-purge.php:205
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Varnish HTTP Purge</a> automatically deletes your cached "
+"posts when published or updated. When making major site changes, such as "
+"with a new theme, plugins, or widgets, you may need to manually empty the "
+"cache."
+msgstr ""
+"<a href=\"%1$s\">Varnish HTTP Purge</a> raderar automatiskt cachade inlägg "
+"när de publiceras eller uppdateras. När du gör större förändringar på din "
+"webbplats så som att välja ett nytt tema, installerar ett plugin eller "
+"widgets kan du behöva tömma din cache."
+
+#: varnish-http-purge.php:206
+msgid "Press the button below to force it to empty your entire Varnish cache."
+msgstr "Klicka på knappen för att manuellt tömma hela Varnish cache. "
+
+#: varnish-http-purge.php:210
+msgid ""
+"You do not have permission to empty the Varnish cache for the whole site. "
+"Please contact your administrator."
+msgstr ""
+"Du har inte tillräckliga behörigheter för att tömma Varnish cache för hela "
+"webbplatsen. Vänligen kontakta administratören."
+
+#: varnish-status.php:55 varnish-status.php:424
+msgid "Is Varnish Working?"
+msgstr "Fungerar Varnish?"
+
+#: varnish-status.php:55
+msgid "Varnish Status"
+msgstr "Varnish Status"
+
+#: varnish-status.php:65
+msgid "Check Varnish Status"
+msgstr "Kontrollera Varnish status"
+
+#: varnish-status.php:66
+msgid "Check A URL On Your Site:"
+msgstr "Kontrollera en URL på din webbplats:"
+
+#: varnish-status.php:76
+msgid "Configure Custom Varnish IP"
+msgstr "Konfigurera Varnish IP"
+
+#: varnish-status.php:77
+msgid "Set Varnish IP"
+msgstr "Ställ in Varnish IP-adress"
+
+#: varnish-status.php:87
+msgid ""
+"The majority of users will never need to so much as look down here. However "
+"there are cases when a custom Varnish IP Address will need to be set, in "
+"order to tell the plugin to empty the cache in a specific location. If "
+"you're using a CDN like Cloudflare or a Firewall Proxy like Sucuri, you will "
+"want to set this."
+msgstr ""
+"Majoriteten av användarna behöver inte konfigurera mer. I vissa fall måste "
+"dock ett Varnish IP ställas in, för att pluginet ska veta vilken cache-"
+"server som ska tömmas. Om du använder ett CDN så som Cloudflare eller en "
+"Brandväggsproxy så som Sucuri vill du ställa in detta. "
+
+#: varnish-status.php:88
+msgid ""
+"Your Varnish IP the IP address of the server where Varnish is installed. "
+"Your Varnish IP must be one of the IPs that Varnish is listening. If you use "
+"multiple IPs, or if you've customized your ACLs, you'll need to pick one "
+"that doesn't conflict with your other settings. For example, if you have "
+"Varnish listening on a public and private IP, pick the private. On the other "
+"hand, if you told Varnish to listen on 0.0.0.0 (i.e. \"listen on every "
+"interface you can\") you would need to check what IP you set your purge ACL "
+"to allow (commonly 127.0.0.1 aka localhost), and use that (i.e. 127.0.0.1)."
+msgstr ""
+"Den IP-adress som Varnish svarar på. Om du använder flera IP-adresser bör du "
+"välja en som inte servar andra tjänster. Till exempel: Om servern svarar på "
+"både ett privat ip och ett publikt ip bör du välja det privata. Om du "
+"däremot har tillåtit alla ip-adresser med hjälp av 0.0.0.0, bör du istället "
+"använda 127.0.0.1. "
+
+#: varnish-status.php:89
+msgid ""
+"If your webhost set up Varnish for you, as is the case with DreamPress or WP "
+"Engine, you may need to ask them for the specifics if they don't have it "
+"documented. I've listed the ones I know about here, however you should still "
+"check with them if you're not sure."
+msgstr ""
+
+#: varnish-status.php:90
+msgid ""
+"If you aren't sure what to do, contact your webhost or server admin before "
+"making any changes."
+msgstr ""
+"Om du är osäker på vad du bör göra, kontakta din webbhotells leverantör."
+
+#: varnish-status.php:93
+msgid ""
+"DreamHost - Go into the Panel and click on the DNS settings for the domain. "
+"The entry for <em>resolve-to.domain</em> (if set) will your varnish server. "
+"If it's not set, then you don't need to worry about this at all. Example:"
+msgstr ""
+
+#: varnish-status.php:119
+msgid ""
+"The Varnish IP has been defined in your wp-config, so it is not editable "
+"here."
+msgstr ""
+
+#: varnish-status.php:121
+msgid "Example:"
+msgstr "Exempel:"
+
+#: varnish-status.php:135
+msgid ""
+"While it would be impossible to detect all possible conflicts, this Status "
+"Page will perform a check of the most common issues that prevent Varnish "
+"from caching your site properly."
+msgstr ""
+
+#: varnish-status.php:160
+msgid "This request cannot be performed: "
+msgstr "Den här åtgärden kan inte genomföras: "
+
+#: varnish-status.php:165
+msgid "This URL is a 404. Please check your typing and try again."
+msgstr ""
+"Webbadressen returnerade 404. Vänligen kontrollera att adressen är korrekt "
+"och försök igen."
+
+#: varnish-status.php:189
+#, php-format
+msgid "Results for %s"
+msgstr "Resultat för %s"
+
+#: varnish-status.php:206
+msgid "Varnish is running properly and caching is happening."
+msgstr ""
+
+#: varnish-status.php:211
+msgid "Varnish is running but cannot cache."
+msgstr "Varnish kör men kan inte cacha något."
+
+#: varnish-status.php:216
+msgid "We did not find Varnish active for this domain."
+msgstr ""
+"Vi kunde inte hitta någon aktiv Varnish installation för den hör domänen."
+
+#: varnish-status.php:225
+#, php-format
+msgid ""
+"You have a Varnish IP set but a proxy like Cloudflare or Sucuri has not been "
+"detected. This is usually fine, but if you have issues with your cache not "
+"emptying when you make a post, you may need to <a href=\"%s\">erase your "
+"Varnish IP</a>. Please check with your webhost or server admin before doing "
+"so."
+msgstr ""
+
+#: varnish-status.php:230
+#, php-format
+msgid ""
+"You're using a Custom Varnish IP that doesn't appear to match your server IP "
+"address. If you're using multiple Varnish servers or IPv6, this is fine. "
+"Please make sure you've <a href=\"%s\">properly configured it</a> according "
+"to your webhost's specifications."
+msgstr ""
+
+#: varnish-status.php:235
+#, php-format
+msgid ""
+"Your server IP setup looks good. If you are using a proxy (like Sucuri or "
+"Cloudflare or Fastly) please double check that configuration and make sure "
+"to add a <a href=\"%s\">custom Varnish IP</a> if necessary."
+msgstr ""
+
+#: varnish-status.php:244
+#, php-format
+msgid ""
+"Because CloudFlare is running, you may experience some cache oddities. Make "
+"sure you <a href=\"%s\">configure WordPress for Cloudflare</a>."
+msgstr ""
+
+#: varnish-status.php:253
+msgid "You are running HHVM instead of PHP. Hip Hop!"
+msgstr "Du kör HHVM istället för PHP. Hip Hop!"
+
+#: varnish-status.php:264
+msgid "Your site is compressing content and making the internet faster."
+msgstr ""
+
+#: varnish-status.php:272
+#, php-format
+msgid ""
+"<a href=\"%s\">Fastly</a> is speeding up your site. Keep in mind, it may "
+"cache your CSS and images longer than Varnish does. Remember to empty all "
+"caches."
+msgstr ""
+
+#: varnish-status.php:300
+msgid ""
+"A plugin or theme is setting a PHPSESSID cookie on every pageload. This "
+"makes Varnish not deliver cached pages."
+msgstr ""
+
+#: varnish-status.php:306
+#, php-format
+msgid ""
+"<a href=\"%s\">Easy Digital Downloads</a> is being used with cookie "
+"sessions. This may cause your cache to misbehave. If you have issues, please "
+"set <code>define( \"EDD_USE_PHP_SESSIONS\", true );</code> in your <code>wp-"
+"config.php</code> file."
+msgstr ""
+
+#: varnish-status.php:312
+#, php-format
+msgid ""
+"<a href=\"%s\">Easy Digital Downloads</a> is putting down a shopping cart "
+"cookie on every page load. Make sure Varnish is set up to ignore that when "
+"it's empty."
+msgstr ""
+
+#: varnish-status.php:318
+#, php-format
+msgid ""
+"<a href=\"%s\">Wordfence</a> is putting down cookies on every page load. "
+"Please disable that in your options (available from version 4.0.4 and up)."
+msgstr ""
+
+#: varnish-status.php:324
+#, php-format
+msgid ""
+"<a href=\"%s\">Invite Anyone</a>, a plugin for BuddyPress, is putting down a "
+"cookie on every page load. This will prevent Varnish from caching."
+msgstr ""
+
+#: varnish-status.php:333
+msgid ""
+"Your domain does not report an \"Age\" header, which means we can't tell if "
+"the page is actually serving from cache."
+msgstr ""
+
+#: varnish-status.php:339
+msgid ""
+"The \"Age\" header is set to less than 1, which means you checked right when "
+"Varnish cleared the cache for that url or Varnish is not actually serving "
+"the content for that url from cache. Check again (refresh the page) but if "
+"it happens again, it could be one of the following reasons:"
+msgstr ""
+
+#: varnish-status.php:341
+msgid ""
+"That url is excluded from the cache on purpose in the Varnish vcl file (in "
+"which case everything is working.)"
+msgstr "Den webbadressen är exkluderad från cachen i Varnish konfiguration."
+
+#: varnish-status.php:342
+msgid ""
+"A theme or plugin is sending cache headers that are telling Varnish not to "
+"serve that content from cache. This means you will have to fix the cache "
+"headers the application is sending to Varnish. A lot of the time those "
+"headers are Cache-Control and/or Expires."
+msgstr ""
+"Ett tema eller plugin skickar en header som instruerar Varnish att inte "
+"skicka innehållet från cacheminnet. Det betyder att du måste fixa "
+"cacheheadern som sidan skickar till Varnish. Detta är ofta ett problem som "
+"orsakas av header Cache-Control och / eller Expires."
+
+#: varnish-status.php:343
+msgid ""
+"A theme or plugin is setting a session cookie, which can prevent Varnish "
+"from serving content from cache. You need to make it not send a session "
+"cookie for anonymous traffic. "
+msgstr ""
+"Ett plugin eller tema sätter en sessionskaka. Detta kan påverka Varnish "
+"förmåga att serva cachade sidor. Du bör filtrera bort denna session i "
+"inställningarna för Varnish. "
+
+#: varnish-status.php:354
+msgid ""
+"Something is setting the header Cache-Control to \"no-cache\" which means "
+"visitors will never get cached pages."
+msgstr ""
+"Något sätter header Cache-Control to \"no-cache\" vilket innebär att "
+"besökare aldrig kommer få en cachad version av sidan."
+
+#: varnish-status.php:362
+msgid ""
+"Something is setting the header Cache-Control to \"max-age=0\" which means a "
+"page can be no older than 0 seconds before it needs to regenerate the cache."
+msgstr ""
+"Något ställer in headern Cache-Control till \"max-age=0\" vilket innebär att "
+"sidan inte får vara äldre än 0 sekunder förrän cachen måste genereras om. "
+
+#: varnish-status.php:370
+msgid ""
+"Something is setting the header Pragma to \"no-cache\" which means visitors "
+"will never get cached pages."
+msgstr ""
+"Något ställer in Pragma to \"no-cache\" vilket innebär att besökare inte "
+"kommer få cachade versioner av sidorna."
+
+#: varnish-status.php:378
+msgid ""
+"X-Cache missed, which means it was not able to serve this page as cached."
+msgstr ""
+"X-Cache missades, vilket innebär att den inte kunde levereras i cachad "
+"version."
+
+#: varnish-status.php:389
+msgid "Mod Pagespeed is active and working properly with Varnish."
+msgstr "Mod Pagespeed är aktiverat och fungerar korrekt. "
+
+#: varnish-status.php:394
+msgid ""
+"Mod Pagespeed is active but it looks like your caching headers may not be "
+"right. This may be a false negative if other parts of your site are "
+"overwriting headers. Fix all other errors listed, then come back to this. If "
+"you are still having errors, you will need to look into using htaccess or "
+"nginx to override the Pagespeed headers."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Varnish HTTP Purge"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://halfelf.org/plugins/varnish-http-purge/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Automatically empty pages cached by Varnish when content on your site is "
+"modified."
+msgstr ""
+"Tömmer automatiskt sidor som har cachats med Varnish när innehållet "
+"uppdateras."
+
+#. Author of the plugin/theme
+msgid "Mika Epstein"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://halfelf.org/"
+msgstr ""
